@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--secondary-color);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 10px;
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container mt-5">
+            <h1>About Me</h1>
+            <p>Hello! I’m Gurwinder singh, a passionate web developer with a knack for creating engaging and user-friendly websites. With a background in [Your Background – e.g., computer science, design, etc.], I specialize in front-end development and am skilled in HTML, CSS, and JavaScript. I’ve always been fascinated by technology and design, which led me to pursue a career where I can combine these interests to build visually appealing and functional web experiences. Whether it’s crafting a responsive layout using Bootstrap or enhancing user interactions with JavaScript, I take pride in delivering high-quality work that meets the needs of users and clients. In my free time, I enjoy exploring new technologies, contributing to open-source projects, and staying updated with the latest trends in web development. I believe that continuous learning is key to staying ahead in this ever-evolving field. Feel free to explore my portfolio to see some of the projects I’ve worked on. If you have any questions or would like to collaborate on a project, don’t hesitate to reach out! You can adjust the details to better fit your background, skills, and interests. If you provide more specifics about yourself, I can help tailor this even further!</p>
+        </section>
+
+        <section id="portfolio" class="container mt-5">
+            <h1>My Work</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/shopping.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Online Shopping Website</h5>
+                            <p class="card-text">The Online Shopping Website is an e-commerce platform designed to provide a seamless shopping experience for users. It allows customers to browse products, view detailed product information, add items to their cart, and complete purchases with a secure checkout process. The goal was to create an intuitive and visually appealing site that supports a wide range of products and payment methods.
+
+                                My Role
+                                As the primary developer, I was responsible for both the frontend and backend development of the site. This included designing the user interface, implementing the shopping cart functionality, integrating with payment gateways, and ensuring that the site is responsive and user-friendly.
+                                
+                                Technologies Used
+                                Frontend: HTML5, CSS3, JavaScript, React
+                                Backend: Node.js, Express
+                                Database: MongoDB
+                                Payment Integration: Stripe
+                                Other Tools: Git, Docker, Webpack
+                                Key Features
+                                Product Catalog: Users can browse a wide range of products, filter by categories, and search for specific items.
+                                Product Details: Each product has a detailed page with images, descriptions, pricing, and reviews.
+                                Shopping Cart: Users can add products to their cart, view the cart contents, and update quantities.
+                                Secure Checkout: Integrated with Stripe for secure payment processing, including options for credit/debit cards and digital wallets.
+                                User Accounts: Customers can create accounts, manage their orders, and track their order history.
+                                Responsive Design: The site is optimized for desktops, tablets, and smartphones to ensure a consistent shopping experience across devices.
+                                Challenges and Solutions
+                                One of the challenges was implementing a responsive and dynamic shopping cart that updates in real-time as users add or remove items. I used React’s state management to handle cart updates efficiently and ensured that the cart was fully functional across different devices and screen sizes.
+                                
+                                Another challenge was integrating with Stripe for payment processing while ensuring security and compliance with industry standards. I followed best practices for handling payment data and used Stripe’s secure APIs to manage transactions.
+                                
+                                Results
+                                The online shopping website successfully launched and has been well-received for its user-friendly interface and smooth shopping experience. It has supported over 5,000 transactions in the first three months and has received positive feedback from users for its ease of use and reliability.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4">
+                        <img src="images/shopping.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title"></h5>
+                            <p class="card-text">Online Games Website</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container mt-5">
+            <h1>Contact Me</h1>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email address</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center mt-5">
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
